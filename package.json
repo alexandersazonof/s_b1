@@ -1,0 +1,18 @@
+{
+  "name": "crypto-price-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "b_i1": "ts-node src/backtest_1/b_i1.ts",
+    "s_i1": "ts-node src/strategy/s_i1.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "axios": "^1.7.2",
+    "ccxt": "4.1.65",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
